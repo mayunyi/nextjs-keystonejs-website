@@ -1,0 +1,6 @@
+Sitemap: https://www.salonshop.ee/sitemap.xml
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*

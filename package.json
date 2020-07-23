@@ -1,0 +1,49 @@
+{
+  "name": "salonshop-baltic-as",
+  "version": "0.0.0",
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4",
+    "yarn": "1.22"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "async": "2.1.4",
+    "axios": "^0.18.0",
+    "connect-memcached": "^1.0.0",
+    "dotenv": "4.0.0",
+    "formik": "^1.5.7",
+    "fslightbox-react": "^1.3.0",
+    "heroku-ssl-redirect": "^0.0.4",
+    "keystone": "4.0.0-beta.5",
+    "loadjs": "^4.2.0",
+    "lodash": "^4.13.1",
+    "mdbreact": "^4.19.1",
+    "next": ">=9.3.2",
+    "nodemailer": "^6.2.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-gtm-module": "^2.0.8",
+    "react-hover-image": "^1.0.1",
+    "react-lazy-load-image-component": "^1.4.1",
+    "react-player": "^1.9.3",
+    "react-reveal": "^1.2.2",
+    "react-slick": "^0.23.2",
+    "react-store-locator": "^0.18.1",
+    "slick-carousel": "^1.8.1",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "eslint": ">=4.18.2",
+    "eslint-config-keystone": "3.0.0",
+    "eslint-plugin-react": "^5.1.1"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "dev": "node server.js",
+    "start": "next start -p $PORT",
+    "build": "next build"
+  },
+  "web": "server.js",
+  "license": "MIT"
+}
